@@ -1,0 +1,9 @@
+google-generativeai==0.8.3
+openai-whisper==20231117
+open-clip-torch==2.29.0
+torch==2.5.1
+numpy==1.26.4
+opencv-python==4.10.0.84
+pydantic==2.10.4
+python-dotenv==1.0.1
+tqdm==4.67.1
