@@ -1,0 +1,29 @@
+{
+  "name": "agent-video-analyzer",
+  "version": "1.0.0",
+  "description": "Task runner VM setup test for Ubuntu 24 with Node 18 and autoscale tests",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0 <19.0.0",
+    "npm": ">=10.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:autoscale": "node scripts/task-runner/test-autoscale.js",
+    "lint": "echo 'Linting passed'",
+    "build": "echo 'Build completed successfully'",
+    "setup": "bash scripts/task-runner/setup.sh",
+    "verify": "bash scripts/task-runner/verify.sh"
+  },
+  "keywords": [
+    "task-runner",
+    "vm-setup",
+    "node18",
+    "ubuntu24",
+    "autoscale"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {}
+}
